@@ -125,6 +125,11 @@ The template is organized into the following directories:
 
 - **`data/`**: Store your input images and datasets here. This is where you should place sample images for processing and experimentation.
 
-- **`notebooks/`**: Contains Jupyter notebooks for interactive learning and experimentation. Start with the introductory notebooks to learn the basics of image processing with OpenCV.
+- **`notebooks/`**: Contains Jupyter notebooks for interactive learning and experimentation:
+  - **`01_intro_to_opencv.ipynb`**: Foundational skills - loading, displaying, color conversions
+  - **`02_camera_access_exercises.ipynb`**: Camera capture, live video processing, real-time effects
+  - **`03_basic_image_processing_exercises.ipynb`**: Filtering, edge detection, color-based detection
+  - **`04_object_detection_exercises.ipynb`**: Face detection, circle/corner detection, template matching
+  - **`05_motion_tracking_exercises.ipynb`**: Motion detection, object tracking, optical flow
 
 - **`scripts/`**: Contains standalone Python scripts for image processing tasks. These scripts can be run from the command line and are useful for batch processing or automation.
